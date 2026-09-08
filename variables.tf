@@ -1,5 +1,5 @@
 variable "vpc_config"{
-    description = "TO get the cidr and name of VPC from user"
+    description = "To get the cidr and name of VPC from user"
     type = object({
      cidr_block = string
      name = string
